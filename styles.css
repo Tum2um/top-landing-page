@@ -110,3 +110,21 @@ button {
    text-align: center;
    color: rgb(80, 90, 100);
 }
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 5% 20%;
+}
+.quote-message {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    color: #11161e;
+    font-size: larger;
+}
