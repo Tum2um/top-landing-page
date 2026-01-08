@@ -28,12 +28,54 @@ a {
 header {
     display: flex;
     background-color: #1F2937;
-    align-items: center;
-    padding: 18px 250px;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 10%;
 }
 
 ul {
     display: flex;
     gap: 16px;
+}
+.top {
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    justify-content: space-between;
+}
+img {
+    width: 500px;
+    height: 267px;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    padding: 28px 0 78px;
+    justify-content: space-between;
+}
+.hero-main-text {
+    display: flex;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.hero-secondary-text {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+    width: 400px;
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 35px;
+    cursor: pointer;
+    margin-top: 38px;
+    font-weight: bold;
+    font-size: large;
+    
 }
