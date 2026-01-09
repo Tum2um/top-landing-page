@@ -167,3 +167,12 @@ button.call {
 .subcall {
     color: white;
 }
+footer {
+    background-color: #1F2937;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+.foot {
+    color: white;
+}
